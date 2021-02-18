@@ -1,0 +1,92 @@
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: larger;
+    background-image: url(toa-heftiba-ip9R11FMbV8-unsplash.jpg);
+    background-size: 100%;
+    /* background-attachment: fixed; */
+    color: solid black;
+    /* background-repeat: no-repeat; */
+    /* text-transform: capitalize; */
+    /* text-shadow: 2px 2px rgba(255, 255, 255, 0.541); */
+    
+}
+
+.main {
+    background-color:#c5f6ffcf;
+    /* border: 1px solid rgb(11, 236, 48); */
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    text-shadow: 3px 3px 3px black;
+    font-size: 40px;
+    font-family: serif;
+    /* position: fixed;
+    width: 1334px; */
+
+}
+
+.box {
+
+    border: 5px solid blue;
+
+}
+
+.child {
+    float: left;
+    width:auto;
+    /* border: 3px solid blue; */
+    margin-left: 9px;
+    padding: 14px;
+    /* overflow: auto; */
+
+}
+
+.img {
+    float: left;
+    width: 222px;
+    /* border: 3px solid blue; */
+    border-radius: 15px;
+}
+img{
+    border-radius: 10px;
+}
+
+.parent {
+    display: flex;
+    /* border: 2px solid greenyellow; */
+    border-radius: 10px;
+    background-color: #c4e8ff59;
+
+}
+
+a:hover {
+    color: red;
+    font-size: 15px;
+    text-decoration-line: none;
+    cursor:pointer;
+    /* background-color:red; */
+}
+:active{
+    cursor: progress;
+}
+
+footer {
+
+    background-color:#c4e8ff59;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+}
+.heading{
+
+    text-align: center;
+    text-shadow: 2px 2px 2px black;
+    color:white;
+    font-family: serif;
+
+
+}
+}
